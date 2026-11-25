@@ -12,32 +12,31 @@
 |---|---|
 | 팀명 | 1팀 |
 | 배정 문화권 | AFRICA |
-| 작성일 | 2026-_11_-23__ |
+| 작성일 | 2026-11-23 |
 | 작성자 | (김영환, 2023316006) |
 
 ## 2. 근거 자료 (최소 2건 · URL 필수)
 
 | # | 자료명 | 출처 유형 | URL | 인용 요지 |
 |---|---|---|---|---|
-| 1 | Hofstede Insights: KOREA | 학술 DB | https://... | Long-term Orientation 100 |
-| 2 | World Values Survey Wave 7 | 국제 조사 | https://... | 집단주의 지수 상위 |
-| 3 | (추가) | | | |
+| 1 | Hofstede Insights: AFRICA | 학술 DB | https://www.theculturefactor.com/country-comparison-tool?countries=ghana%2Ckenya%2Cnigeria | 개인주의(IDV) 동아프리카 27·서아프리카 20, 권력거리(PDI) 64~77, 불확실성 회피(UAI) 52~54, 쾌락 추구(IVR) 동아프리카 40·서아프리카 78 |
+| 2 | World Values Survey Wave 7 | 국제 조사 | https://www.worldvaluessurvey.org/WVSContents.jsp| Inglehart–Welzel 세계 문화 지도: 아프리카 문화권은 전통적·종교적 가치(Traditional values)가 강한 영역에 위치 |
 
 ## 3. 프레임워크별 문화 해석
 
 | Framework | 문화적 근거 요약 (2~3줄) | 제안 가중치 |
 |---|---|---|
-| **emotion**  | 예: 情(정) 문화 강함, 공감 기반 판단 우세 | 0.2 |
-| **social**   | 예: 집단 · 공동체 규범 중시 | 0.2 |
-| **moral**    | 예: 유교적 규범 유지 | 0.2 |
-| **identity** | 예: 체면 · 위계 · 역할 정체성 강함 | 0.4 |
+| **emotion**  | 쾌락 추구(IVR) 점수가 동아프리카 40, 서아프리카 78로 지역 간 편차가 커서 근거가 약함. 그래서 가장 낮게 설정. | 0.15 |
+| **social**   | Ubuntu("우리가 있기에 내가 있다")처럼 공동체와 관계를 중시함. Hofstede 개인주의 점수가 동아프리카 27, 서아프리카 20으로 매우 낮아 집단 중심. 권력거리도 64~77로 높아 위계와 관계, 체면이 중요. | 0.40 |
+| **moral**    | 불확실성 회피 점수가 52~54로 중간 수준. 규칙과 의무를 꽤 중시하지만 아주 엄격하지는 않아 두 번째로 설정. | 0.25 |
+| **identity** | WVS 조사에서 아프리카는 전통·종교적 가치가 강한 쪽에 속함. 신념은 중요하지만 social, moral보다 선택에 덜 직접적이라고 판단. | 0.20 |
 | **합계**     | | **1.00** |
 
 > ⚠️ 합계는 반드시 1.00 이어야 합니다. `python scripts/validate_scenarios.py` 로 자동 검증됩니다.
 
 ## 4. 가설 (Value-Check 대상)
 
-> **H1.** 우리 문화권(KOREA) 에이전트는 S1(Trolley) 시나리오에서 옵션 **B(방관)** 를 200 에피소드 부근에서 수렴 선택할 것이다.
+> **H1.** 우리 문화권(KO) 에이전트는 S1(Trolley) 시나리오에서 옵션 **B(방관)** 를 200 에피소드 부근에서 수렴 선택할 것이다.
 >
 > **H2.** identity 가중치가 높은 문화권일수록 다양성(diversity) 지표가 낮게 수렴할 것이다.
 >
