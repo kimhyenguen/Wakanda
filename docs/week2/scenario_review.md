@@ -1,4 +1,4 @@
-# [T?] Week 2 · 시나리오 설계 & 상호 리뷰 노트
+# [1팀] Week 2 · 시나리오 설계 & 상호 리뷰 노트
 
 > Global AI Ethics Simulator — Week 2 산출물 템플릿
 > © 2026 강송희 교수 · CC BY-NC 4.0
