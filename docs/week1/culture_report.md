@@ -20,7 +20,7 @@
 | # | 자료명 | 출처 유형 | URL | 인용 요지 |
 |---|---|---|---|---|
 | 1 | Hofstede Insights: AFRICA  | 학술 DB | https://www.theculturefactor.com/country-comparison-tool?countries=ghana%2Ckenya%2Cnigeria | 개인주의(IDV) 동아프리카 27·서아프리카 20, 권력거리(PDI) 64~77, 불확실성 회피(UAI) 52~54, 쾌락 추구(IVR) 동아프리카 40·서아프리카 78 |
-| 2 | World Values Survey Wave 7 | 국제 조사 | https://www.worldvaluessurvey.org/WVSContents.jsp| Inglehart–Welze | 세계 문화 지도: 아프리카 문화권은 전통적·종교적 가치(Traditional values)가 강한 영역에 위치 |
+| 2 | World Values Survey Wave 7 | 국제 조사 | https://www.worldvaluessurvey.org/WVSContents.jsp| Inglehart–Welze | 아프리카 문화권은 전통적·종교적 가치(Traditional values)가 강한 영역에 위치 |
 | 3 | (추가) | | | |
 
 ## 3. 프레임워크별 문화 해석
